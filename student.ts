@@ -1,0 +1,16 @@
+let fname: string = "teeradon";
+let lname: string = "Saardshushoom";
+let course :string[]=["Databast","OOP","Web"];
+let mark: number[]=[80, 76, 65];
+let pass: boolean = true;
+console.log("Hello %s %s ",fname,lname);
+console.log("ลงทะเบียนวิชา",course);
+console.log("ได้คะแนน",mark);
+console.log("คุณสอบผ่าน",pass);
+console.log("คุณสอบได้ %d คะแนน วิชา %s",mark[0],course[0]);
+let mark1: number=75;
+let mark2: number=80;
+let total: number=mark[0]+mark[1]+mark[2];
+console.log("คะแนนรวม",total);
+let avg: number=total/3;
+console.log("คะแนนเฉลี่ย ",avg);
